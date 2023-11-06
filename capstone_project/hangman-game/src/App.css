@@ -1,0 +1,39 @@
+/** @format */
+/*Simple styling to improve the visual appeal of the page*/
+.App {
+  text-align: center;
+}
+
+.inputContainer {
+  @media (min-width: 0px) {
+    width: 30vw;
+    height: 30vw;
+    display: block;
+    justify-self: center;
+    margin-top: 1vw;
+  }
+}
+
+.alphabetButton {
+  border-radius: 20px;
+  margin: 0.5vw;
+}
+
+.rulesContainer {
+  position: relative;
+}
+
+.rulesButton {
+  background-color: gray;
+  color: white;
+  margin: 0.05vw;
+  padding-right: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.restartButton {
+  background-color: gray;
+  color: white;
+}
